@@ -1,0 +1,13 @@
+{
+    "name": "vebto-server",
+    "type": "library",
+    "require": {
+      "laravel/socialite": "^3.0.9",
+      "leafo/scssphp": "^0.7.4"
+    },
+    "autoload": {
+    	"psr-4": {
+    		"Vebto\\": "src/"
+    	}
+    }
+}
